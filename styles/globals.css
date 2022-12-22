@@ -1,4 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'index_sections/journey.css'
+
+@import 'index_sections/journey.css';
+
+body {
+    font-family: 'Roboto';
+}
