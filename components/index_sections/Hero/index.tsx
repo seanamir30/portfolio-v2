@@ -8,7 +8,7 @@ const Hero = () => {
     const displayName = "Sean"
 
     return (
-        <header className="flex justify-center">
+        <header className="flex justify-center dark:bg-slate-900 dark:text-orange-500">
             <div className="py-16 lg:py-28 flex flex-col w-full justify-center items-center lg:max-w-screen-md">
                 <p className="lg:text-lg">Hey there!</p>
                 <p className="lg:text-6xl text-4xl font-thin w-fit">I&apos;m</p>
