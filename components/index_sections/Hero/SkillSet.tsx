@@ -23,8 +23,8 @@ const SkillSet = ({skills}: SkillSetProps) => {
     return (
         <div className="flex flex-wrap justify-center mt-6 px-3">
             {skills.map((skill, index) =>
-                <div key={index} className={clsx(`transition-all duration-500 border-solid border m-1 cursor-default border-neutral-800 rounded-full text-center w-fit h-fit px-2 dark:border-orange-500 dark:text-orange-500`, {
-                    'bg-neutral-800 text-white shadow-md -translate-y-1 dark:bg-orange-500 dark:!text-slate-900 dark:shadow-none' : index===activeSkill
+                <div key={index} className={clsx(`transition-all duration-500 border-solid border m-1 cursor-default border-neutral-800 rounded-full text-center w-fit h-fit px-2 dark:border-white dark:text-white`, {
+                    'bg-neutral-800 text-white shadow-md -translate-y-1 dark:bg-white dark:!text-neutral-900 dark:shadow-none' : index===activeSkill
                 })} onMouseEnter={()=>{handleSkillHover(index)}} onMouseLeave={()=>setHoverActive(false)}>{skill}</div>
             )}
         </div>

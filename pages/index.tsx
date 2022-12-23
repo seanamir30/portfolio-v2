@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Hero from '../components/index_sections/Hero'
-import Journey from '../components/index_sections/Journey'
 import Projects from '../components/index_sections/Projects'
 import Warm from '../components/index_sections/Warm'
 
@@ -16,7 +15,6 @@ export default function Home() {
       </Head>
       <main>
         <Hero/>
-        <Journey/>
         <Projects/>
         <Warm/>
       </main>
