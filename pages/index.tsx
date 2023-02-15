@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Hero from '../components/index_sections/Hero'
-import Projects from '../components/index_sections/Projects'
-import Warm from '../components/index_sections/Warm'
+import Hero from '../components/Hero'
+import Projects from '../components/Projects'
+import Warm from '../components/Warm'
 
 export default function Home() {
   return (

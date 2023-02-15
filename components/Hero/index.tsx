@@ -8,7 +8,7 @@ const Hero = () => {
     const displayName = "Sean"
 
     return (
-        <header className="flex justify-center dark:bg-neutral-900 dark:text-white">
+        <header className="flex justify-center dark:bg-neutral-900 dark:text-white h-[75vh]">
             <div className="py-16 lg:py-28 flex flex-col w-full justify-center items-center lg:max-w-screen-md">
                 <p className="lg:text-lg">Hey there!</p>
                 <p className="lg:text-6xl text-4xl font-thin w-fit">I&apos;m</p>
@@ -17,7 +17,7 @@ const Hero = () => {
                         {githubLink && <a className="p-1" href={githubLink} target="blank_"><i className="fab fa-github"></i></a>}
                         {linkedInLink && <a className="p-1" href={linkedInLink}><i className="fab fa-lg fa-linkedin"></i></a>}
                     </div>
-                    <h1 className="text-[9rem] md:text-[17rem] md:leading-[16rem] font-black w-fit lg:mx-10">{displayName}</h1>
+                    <h1 className="text-[9rem] md:text-[17rem] leading-[9rem] md:leading-[16rem] font-black w-fit lg:mx-10">{displayName}</h1>
                 </div>
                 {skills &&
                     <SkillSet skills={skills}/>
