@@ -1,7 +1,7 @@
 import SkillSet from "./SkillSet"
 
 const Hero = () => {
-    const skills = ['Python', 'Django', 'Selenium', 'Ruby', 'Rails', 'React', 'NextJs', 'NodeJs', 'Javascript' ,'Typescript' , 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'Adobe Photoshop', 'Blender']
+    const skills = ['React', 'NextJs', 'NodeJs','ExpressJs', 'GraphQL', 'Prisma' , 'Javascript' ,'Typescript' , 'HTML', 'CSS', 'Tailwind','Python', 'Django', 'Selenium', 'Ruby', 'Rails', 'Bootstrap', 'Adobe Photoshop', 'Blender']
     const githubLink = "https://github.com/seanamir30"
     const linkedInLink = "https://www.linkedin.com/in/seancafe/"
     const email = "hi@seancafe.com"
