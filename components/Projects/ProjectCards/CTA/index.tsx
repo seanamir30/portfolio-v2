@@ -35,7 +35,7 @@ const CTA = () => {
             </div>
             <a href="mailto:hi@seancafe.com" className='underline hover:opacity-90'>hi@seancafe.com</a>
           </div>
-          <a href="mailto:hi@seancafe.com" className='rounded-lg hover:bg-white hover:text-orange-600 px-5 py-3 border border-white transition hover:bg-transparent text-xl'>Contact me</a>
+          <a href="mailto:hi@seancafe.com" className='rounded-lg hover:bg-white hover:text-orange-600 px-5 py-3 border border-white transition text-xl'>Contact me</a>
         </div>
     </Card.Container>
   )
