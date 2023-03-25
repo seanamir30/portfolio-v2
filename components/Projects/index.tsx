@@ -3,21 +3,14 @@ import DefinitelyAnotherBlogApp from "./ProjectCards/DefinitelyAnotherBlogApp"
 import Qtime from "./ProjectCards/Qtime"
 import RealSuite from "./ProjectCards/RealSuite"
 import RealWB from "./ProjectCards/RealWB"
+import CodeTyper from "./ProjectCards/CodeTyper"
 import ComingSoon from "./ProjectCards/CTA"
 
 const Projects = () => {
     const projects = [
         {
-            Component: DefinitelyAnotherBlogApp,
-            key: 'DefinitelyAnotherBlogApp'
-        },
-        {
-            Component: Access,
-            key: 'Access'
-        },
-        {
-            Component: Qtime,
-            key: 'Qtime'
+            Component: CodeTyper,
+            key: 'CodeTyper'
         },
         {
             Component: RealSuite,
@@ -28,8 +21,20 @@ const Projects = () => {
             key: 'RealWB'
         },
         {
+            Component: Qtime,
+            key: 'Qtime'
+        },
+        {
+            Component: DefinitelyAnotherBlogApp,
+            key: 'DefinitelyAnotherBlogApp'
+        },
+        {
+            Component: Access,
+            key: 'Access'
+        },
+        {
             Component: ComingSoon,
-            key: 'CommingSoon'
+            key: 'ComingSoon'
         },
     ]
     
