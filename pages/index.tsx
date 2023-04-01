@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { useEffect } from 'react'
 
@@ -9,11 +8,10 @@ import Projects from '../components/Projects'
 import Warm from '../components/Warm'
 
 export default function Home() {
-  const router = useRouter()
 
   useEffect(()=>{
-    axios.post(process.env.ANALYTICS_URL || '', {
-      url: router.asPath,
+    axios.post(process.env.NEXT_PUBLIC_ANALYTICS_URL || '', {
+      url: window.location.href,
       userAgent: window.navigator.userAgent
     })
   },[])
