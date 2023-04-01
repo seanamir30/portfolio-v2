@@ -1,9 +1,23 @@
+import axios from 'axios'
+import { useRouter } from 'next/router'
 import Head from 'next/head'
+import { useEffect } from 'react'
+
+// Projects
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Warm from '../components/Warm'
 
 export default function Home() {
+  const router = useRouter()
+
+  useEffect(()=>{
+    axios.post(process.env.ANALYTICS_URL || '', {
+      url: router.asPath,
+      userAgent: window.navigator.userAgent
+    })
+  },[])
+
   return (
     <>
       <Head>
